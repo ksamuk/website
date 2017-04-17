@@ -4,7 +4,7 @@ authors = ["K Samuk", "D Iritani", "D Schluter"]
 date = "2014-07-01"
 image_preview = ""
 math = true
-publication_types = ["1"]
+publication_types = ["2"]
 publication = "Ecology and Evolution"
 publication_short = ""
 selected = true
@@ -15,9 +15,5 @@ url_pdf = "http://onlinelibrary.wiley.com/doi/10.1002/ece3.1175/full"
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "wc_hand.jpg"
-caption = "My caption :smile:"
+caption = "white_stickleback"
 
-
-+++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.

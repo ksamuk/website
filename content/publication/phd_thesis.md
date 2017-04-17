@@ -5,7 +5,7 @@ authors = ["K Samuk"]
 date = "2016-06-01"
 image_preview = ""
 math = true
-publication_types = ["2"]
+publication_types = ["3"]
 publication = "University of British Columbia"
 publication_short = ""
 selected = true
@@ -19,8 +19,4 @@ url_slides = ""
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "recomb_paper.png"
-caption = "My caption :smile:"
-
-+++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+caption = "recombination_landscape"

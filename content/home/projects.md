@@ -26,12 +26,20 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Genomics"
+  tag = ".genomics"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Recombination"
+  tag = ".recombination"
+
+[[filter]]
+  name = "Adaptation"
+  tag = ".adaptation"
+
+[[filter]]
+  name = "Speciation"
+  tag = ".speciation"
 
 +++
 
