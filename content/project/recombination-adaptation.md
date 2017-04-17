@@ -3,7 +3,7 @@
 date = "2016-04-27"
 
 # Project title.
-title = "Recombination and Adaptive Divergence"
+title = "Recombination and Adaptation"
 
 # Project summary to display on homepage.
 summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."

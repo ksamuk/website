@@ -11,9 +11,9 @@ selected = false
 title = "Sister clade comparisons reveal reduced maternal care behavior in social cobweb spiders"
 url_pdf = "https://academic.oup.com/beheco/article/23/1/35/232861/Sister-clade-comparisons-reveal-reduced-maternal"
 
-
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "spider_mom.jpg"
 caption = "spider_mom"
 
++++
