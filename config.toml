@@ -169,7 +169,7 @@ defaultContentLanguageInSubdir = false
   
 [[menu.main]]
   name = "CV"
-  url_pdf = "pdf/cv_2016.pdf"
+  url = "https://ksamuk.github.io/pdf/cv_2016.pdf"
   weight = 4
   
 [[menu.main]]
