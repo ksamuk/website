@@ -6,11 +6,11 @@ date = "2016-04-20T00:00:00"
 draft = false
 
 title = "Projects"
-subtitle = ""
+subtitle = "In progress"
 widget = "projects"
 
 # Order that this section will appear in.
-weight = 50
+weight = 2
 
 # View.
 # Customize how projects are displayed.
@@ -21,25 +21,25 @@ view = 1
 # Add or remove as many filters (`[[filter]]` instances) as you like.
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-[[filter]]
-  name = "All"
-  tag = "*"
+#[[filter]]
+#  name = "All"
+#  tag = "*"
   
-[[filter]]
-  name = "Genomics"
-  tag = ".genomics"
+#[[filter]]
+#  name = "Genomics"
+#  tag = ".genomics"
 
-[[filter]]
-  name = "Recombination"
-  tag = ".recombination"
+#[[filter]]
+#  name = "Recombination"
+#  tag = ".recombination"
 
-[[filter]]
-  name = "Adaptation"
-  tag = ".adaptation"
+#[[filter]]
+#  name = "Adaptation"
+#  tag = ".adaptation"
 
-[[filter]]
-  name = "Speciation"
-  tag = ".speciation"
+#[[filter]]
+#  name = "Speciation"
+#  tag = ".speciation"
 
 +++
 

@@ -151,6 +151,11 @@ defaultContentLanguageInSubdir = false
   name = "Home"
   url = "#about"
   weight = 1
+  
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 1
 
 [[menu.main]]
   name = "Publications"
@@ -158,10 +163,15 @@ defaultContentLanguageInSubdir = false
   weight = 2
   
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Publications"
+  url = "#publications"
   weight = 3
-
+  
+[[menu.main]]
+  name = "CV"
+  url_pdf = "pdf/cv_2016.pdf"
+  weight = 4
+  
 [[menu.main]]
   name = "Contact"
   url = "#contact"
