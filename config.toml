@@ -39,7 +39,7 @@ defaultContentLanguageInSubdir = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -173,9 +173,14 @@ defaultContentLanguageInSubdir = false
   weight = 4
   
 [[menu.main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 5
+  
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 5
+  weight = 6
 
 # Taxonomies.
 [taxonomies]
