@@ -16,9 +16,9 @@ caption = "Image credit: [**Gutenkunst et al. 2009**](http://journals.plos.org/p
 
 ∂a∂i is a powerful and flexible population genetics model-fitting package for Python 2.X written by [Ryan Gutenkunst](http://gutengroup.mcb.arizona.edu/). It is a popular tool used in population and evolutionary genetics research for evaluating the fit of demographic models to DNA polymorphism data.
 
-∂a∂i is slightly unusual that it is a Python package rather than a standalone piece of software. This makes using ∂a∂i very interactive, particularly if one uses a dynamic coding platform such a Jupyter notebook. 
+∂a∂i is slightly unusual that it is a Python package rather than a standalone piece of software. This makes using ∂a∂i an interactive process, particularly if one uses a dynamic coding platform such a Jupyter notebook. 
 
-∂a∂i also has extremely handy functions that allow you to call the program *ms* by Richard Hudson directly Python in order to simulate data. So *ms* and a working Python 2.7 (32 bit) installation are both prerequisites, which in turn have other prerequisites.
+∂a∂i also has extremely handy functions that allow you to call the program *ms* by Richard Hudson via Python in order to simulate data. So *ms* and a working Python 2.7 (32 bit) installation are both prerequisites, which in turn have other prerequisites.
 
 I normally use Mac OS and/or a Linux computing cluster for my day-to-day scientific computing. However, I recently installed ∂a∂i and all its dependencies from scratch on my Windows 10 PC. It was bit of a saga, and I wanted to share the exact steps I took, so as to ease the process for others.
 
@@ -98,11 +98,11 @@ If the gods have smiled on you, you should now how a functioning installation of
 
 ## Reading list
 
-1. [The original paper describing dadi.](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000695)
+1. [The original paper describing ∂a∂i.](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000695)
 
-2. [The dadi manual.](https://bitbucket.org/gutenkunstlab/dadi/downloads/)
+2. [The ∂a∂i manual.](https://bitbucket.org/gutenkunstlab/dadi/downloads/)
 
-3. [A paper describing the use of the Godambe Information Matrix for model comparison in dadi.](https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msv255)
+3. [A paper describing the use of the Godambe Information Matrix for model comparison in ∂a∂i.](https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msv255)
 
-4. [A recent paper about integrating two-locus statistics into dadi.](http://www.genetics.org/content/early/2017/04/13/genetics.117.201251)
+4. [A recent paper about integrating two-locus statistics into ∂a∂i.](http://www.genetics.org/content/early/2017/04/13/genetics.117.201251)
 
