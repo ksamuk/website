@@ -2,10 +2,10 @@
 date = "2016-04-20T12:00:00"
 draft = false
 tags = ["academic", "popgen"]
-title = "Getting Started with dadi for Windows Users"
+title = "Getting Started with ∂a∂i for Windows Users"
 math = true
 summary = """
-A guided on installation of the population genetics Python package dadi
+A guided on installation of the population genetics Python package ∂a∂i
 """
 
 [header]
@@ -14,13 +14,13 @@ caption = "Image credit: [**Gutenkunst et al. 2009**](http://journals.plos.org/p
 
 +++
 
-$\partial$a$\partial$i is a powerful and flexible population genetics model-fitting package for Python 2.X written by [Ryan Gutenkunst](http://gutengroup.mcb.arizona.edu/). It is fairly popular in the population and evolutionary genetics literature for evaluating the fit of demographic models to DNA polymorphism data.
+∂a∂i is a powerful and flexible population genetics model-fitting package for Python 2.X written by [Ryan Gutenkunst](http://gutengroup.mcb.arizona.edu/). It is a popular tool used in population and evolutionary genetics research for evaluating the fit of demographic models to DNA polymorphism data.
 
-$\partial$a$\partial$i is slightly unusual that it is a Python package rather than a standalone piece of software. This makes using $\partial$a$\partial$i very interactive, particularly if one uses a dynamic coding platform such a Jupyter notebook. 
+∂a∂i is slightly unusual that it is a Python package rather than a standalone piece of software. This makes using ∂a∂i very interactive, particularly if one uses a dynamic coding platform such a Jupyter notebook. 
 
-It also has optional, but extremely handy functions that allow you to call the program *ms* by Richard Hudson directly Python in order to simulate data. So *ms* and a working Python 2.7 (32 bit) installation are both prerequisites, which in turn have other prerequisites.
+∂a∂i also has extremely handy functions that allow you to call the program *ms* by Richard Hudson directly Python in order to simulate data. So *ms* and a working Python 2.7 (32 bit) installation are both prerequisites, which in turn have other prerequisites.
 
-I normally use Mac OS and/or a Linux computing cluster for all my scientific computing. However, I recently installed dadi and all its dependencies from scratch on my Windows 10 PC. It was bit of a saga, and I wanted to share the exact steps I took, so as to ease the process for others.
+I normally use Mac OS and/or a Linux computing cluster for my day-to-day scientific computing. However, I recently installed ∂a∂i and all its dependencies from scratch on my Windows 10 PC. It was bit of a saga, and I wanted to share the exact steps I took, so as to ease the process for others.
 
 Things that need to be installed (if you don't have them already):
 
@@ -28,7 +28,7 @@ Things that need to be installed (if you don't have them already):
 - Cygwin
 - The gcc compiler
 - ms
-- dadi 
+- ∂a∂i
 
 ## Install Anaconda 2.7 (32 bit)
 
@@ -63,7 +63,7 @@ ms requires compilation from source. If you do not have a compiler installed, in
 
 3. Add the folder containing ms.exe (the *ms* folder) to your [system path](http://www.zdnet.com/article/windows-10-tip-point-and-click-to-edit-the-system-path-variable/).
 
-## Install the latest version of $\partial$a$\partial$i
+## Install the latest version of ∂a∂i
 
 1. Go here: https://bitbucket.org/gutenkunstlab/dadi/downloads/ and choose "download repository" (not the .exe). 
 
@@ -73,9 +73,9 @@ ms requires compilation from source. If you do not have a compiler installed, in
 
 		python setup.py install
 		
-Scan the output of this command for errors. Depending on the state of your system, you may need to install Visual Studio 9.0 C++ (follow the url given in error message).
+Scan the output of this command for errors. Depending on the state of your system, you may need to install Visual Studio 9.0 C++ (follow the URL given in error message).
 		
-## Run the $\partial$a$\partial$i example analysis
+## Run the ∂a∂i example analysis
 
 To confirm your installation works, run the example analysis provided in the repository you downloaded.
 
@@ -94,15 +94,15 @@ To confirm your installation works, run the example analysis provided in the rep
 
 ## Finished!
 
-If the gods have smiled on you, you should now how a functioning installation of dadi. Before diving into an analysis, I highly recommend the following references by Ryan Gutenkunst et al.:
+If the gods have smiled on you, you should now how a functioning installation of ∂a∂i. Before diving into an analysis, I highly recommend the following references by Ryan Gutenkunst et al.:
 
 ## Reading list
 
-1. [The original paper describing dadi](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000695)
+1. [The original paper describing dadi.](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000695)
 
-2. The dadi manual.
+2. [The dadi manual.](https://bitbucket.org/gutenkunstlab/dadi/downloads/)
 
-3. [A paper describing the use of the Godambe Information Matrix for model comparison in dadi](https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msv255)
+3. [A paper describing the use of the Godambe Information Matrix for model comparison in dadi.](https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msv255)
 
-4. [A recent paper about integrating two-locus statistics into dadi](http://www.genetics.org/content/early/2017/04/13/genetics.117.201251)
+4. [A recent paper about integrating two-locus statistics into dadi.](http://www.genetics.org/content/early/2017/04/13/genetics.117.201251)
 
