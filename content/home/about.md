@@ -20,17 +20,20 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
+  advisor = "Dolph Schluter"
   course = "PhD in Zoology"
   institution = "University of British Columbia"
   year = 2016
 
 [[education.courses]]
+  advisor = "Leticia Avilés"
   course = "MSc in Zoology"
   institution = "University of British Columbia"
   year = 2011
 
 [[education.courses]]
-  course = "BSc in Biology"
+  advisor = "James Thomson (Honors Thesis)"
+  course = "HBSc in Biology"
   institution = "University of Toronto"
   year = 2008
  
