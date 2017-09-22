@@ -9,7 +9,7 @@ publication = "Behavioral Ecology and Sociobiology"
 publication_short = ""
 selected = false
 title = "Indiscriminate care of offspring predates the evolution of sociality in alloparenting social spiders"
-url_pdf = "https://link.springer.com/article/10.1007/s00265-013-1555-0"
+url_pdf = "https://ksamuk.github.io/pdf/samuk_aviles_2013_besb.pdf"
 
 
 # Optional featured image (relative to `static/img/` folder).

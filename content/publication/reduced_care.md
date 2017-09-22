@@ -9,7 +9,7 @@ publication = "Behavioral Ecology"
 publication_short = ""
 selected = false
 title = "Sister clade comparisons reveal reduced maternal care behavior in social cobweb spiders"
-url_pdf = "pdf/Samuk et al.2011-BehavEcol.pdf"
+url_pdf = "https://ksamuk.github.io/pdf/pdf/samuk_et_al_2011_behaveecol.pdf"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

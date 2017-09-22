@@ -9,7 +9,7 @@ publication = "In review"
 publication_short = ""
 selected = false
 title = "Predation causes the evolution of smaller brains in experimental populations of threespine stickleback"
-url_pdf = ""
+url_pdf = "https://ksamuk.github.io/pdf/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

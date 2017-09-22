@@ -9,7 +9,7 @@ publication = "Molecular Ecology"
 publication_short = ""
 selected = false
 title = "Gene flow and selection interact to promote adaptive divergence in regions of low recombination"
-url_pdf = "http://onlinelibrary.wiley.com/doi/10.1111/mec.14226/full"
+url_pdf = "https://ksamuk.github.io/pdf/samuk_et_al_2017_mol_ecol.pdf"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
