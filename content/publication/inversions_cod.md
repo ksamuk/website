@@ -9,7 +9,7 @@ publication = "Molecular Ecology (Perspective)"
 publication_short = ""
 selected = false
 title = "Inversions and the origin of behavioral differences in cod"
-url_pdf = "http://onlinelibrary.wiley.com/doi/10.1111/mec.13624/full"
+url_pdf = "https://ksamuk.github.io/pdf/samuk_2016_molecol.pdf"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

@@ -24,11 +24,15 @@
     {{ partial "publication_li_detailed" . }}
     {{ end }}
     {{ else }}
-    <ul class="fa-ul">
+    
+    <ol reversed class="fa-ol">
+    
       {{ range first $page.Params.count (where $.Data.Pages "Type" "publication") }}
       {{ partial "publication_li_simple" . }}
       {{ end }}
-    </ul>
+
+    </ol>
+    
     {{ end }}
 
   </div>
