@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recombination on Kieran Samuk, PhD</title>
+    <link>https://ksamuk.github.io/tags/recombination/</link>
+    <description>Recent content in Recombination on Kieran Samuk, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Kieran Samuk</copyright>
+    <lastBuildDate>Mon, 17 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/recombination/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Quantiative Genetics of Recombination</title>
+      <link>https://ksamuk.github.io/project/adaptive-recombination/</link>
+      <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksamuk.github.io/project/adaptive-recombination/</guid>
+      <description>
+
+&lt;h3 id=&#34;is-recombination-rate-itself-optimized-by-natural-selection&#34;&gt;Is recombination rate itself optimized by natural selection?&lt;/h3&gt;
+
+&lt;p&gt;Theory predicts that more frequent recombination is favorable when the direction of selection flutates (e.g. seasonally). This implies that recombination rate may itself be the target of optimizing selection. Given that there is a great deal of heritable variation for genome-wide recombination rate in plant and animal populations, we are investigating whether natural populations display signatures of local adaptation for recombination rate.&lt;/p&gt;
+
+&lt;h3 id=&#34;does-natural-selection-shape-the-recombinational-landscape-of-the-genome&#34;&gt;Does natural selection shape the recombinational landscape of the genome?&lt;/h3&gt;
+
+&lt;p&gt;Under certain circumstances, theory predicts that natural selection can favor the reduction of recombination at specific locations in the genome. This can, for example, involve the evolution of a chromosomal inversion. I am working on putting modern transgenic technologies to work answering this question.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recombination and Adaptation</title>
+      <link>https://ksamuk.github.io/project/recombination-adaptation/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ksamuk.github.io/project/recombination-adaptation/</guid>
+      <description>&lt;p&gt;The genetic architecture of adaptation is thought to be a result of the interplay between natural selection, gene flow and the structure of the genome. One example of this is the localization of adaptive alleles in regions of low recombination, particularly when adaptation occurs in the face of gene flow. To test this idea, my colleagues and I created a large dataset of genomic data from pairs of stickleback populations from around the world that vary in the presence of gene flow and divergent selection.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

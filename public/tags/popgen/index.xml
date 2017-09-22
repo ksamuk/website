@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Popgen on Kieran Samuk, PhD</title>
+    <link>https://ksamuk.github.io/tags/popgen/</link>
+    <description>Recent content in Popgen on Kieran Samuk, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Kieran Samuk</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 12:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/popgen/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Getting Started with ∂a∂i for Windows Users</title>
+      <link>https://ksamuk.github.io/post/dadi-windows/</link>
+      <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://ksamuk.github.io/post/dadi-windows/</guid>
+      <description>
+
+&lt;p&gt;∂a∂i is a powerful and flexible population genetics model-fitting package for Python 2.X written by &lt;a href=&#34;http://gutengroup.mcb.arizona.edu/&#34; target=&#34;_blank&#34;&gt;Ryan Gutenkunst&lt;/a&gt;. It is a popular tool used in population and evolutionary genetics research for evaluating the fit of demographic models to DNA polymorphism data.&lt;/p&gt;
+
+&lt;p&gt;∂a∂i is slightly unusual that it is a Python package rather than a standalone piece of software. This makes using ∂a∂i an interactive process, particularly if one uses a dynamic coding platform such a Jupyter notebook.&lt;/p&gt;
+
+&lt;p&gt;∂a∂i also has extremely handy functions that allow you to call the program &lt;em&gt;ms&lt;/em&gt; by Richard Hudson via Python in order to simulate data. So &lt;em&gt;ms&lt;/em&gt; and a working Python 2.7 (32 bit) installation are both prerequisites, which in turn have other prerequisites.&lt;/p&gt;
+
+&lt;p&gt;I normally use Mac OS and/or a Linux computing cluster for my day-to-day scientific computing. However, I recently installed ∂a∂i and all its dependencies from scratch on my Windows 10 PC. It was bit of a saga, and I wanted to share the exact steps I took, so as to ease the process for others.&lt;/p&gt;
+
+&lt;p&gt;Things that need to be installed (if you don&amp;rsquo;t have them already):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Anaconda 2.7 (32 Bit version)&lt;/li&gt;
+&lt;li&gt;Cygwin&lt;/li&gt;
+&lt;li&gt;The gcc compiler&lt;/li&gt;
+&lt;li&gt;ms&lt;/li&gt;
+&lt;li&gt;∂a∂i&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;install-anaconda-2-7-32-bit&#34;&gt;Install Anaconda 2.7 (32 bit)&lt;/h2&gt;
+
+&lt;p&gt;Anaconda is a pre-packaged version of Python maintained by Continuum Analytics. It includes a number of useful scientific packages, utilities, and a package manager in a single installation.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Uninstall any previous versions of Anaconda + restart Windows.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install using the &lt;strong&gt;32 bit&lt;/strong&gt; Anaconda installer available &lt;a href=&#34;https://www.continuum.io/downloads&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Restart windows.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;install-cygwin-gcc-compiler&#34;&gt;Install Cygwin + gcc compiler&lt;/h2&gt;
+
+&lt;p&gt;ms requires compilation from source. If you do not have a compiler installed, installing Cygwin will allow you to quickly install the gcc compiler. Cygwin also gives access to many Linux-like utilities.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;To install Cygwin, Follow Steps 1 &amp;amp; 2 &lt;a href=&#34;http://preshing.com/20141108/how-to-install-the-latest-gcc-on-windows/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After installing Cygwin, move the setup-x86_64.exe file you used to install Cygwin to the folder where you chose install Cygwin. Navigate to that folder in a command prompt. To install gcc, type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;setup-x86_64.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add the cygwin64/bin folder to your &lt;a href=&#34;http://www.zdnet.com/article/windows-10-tip-point-and-click-to-edit-the-system-path-variable/&#34; target=&#34;_blank&#34;&gt;system path&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;install-richard-hudson-s-ms&#34;&gt;Install Richard Hudson&amp;rsquo;s &lt;em&gt;ms&lt;/em&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Download and extract the zipped version of &lt;em&gt;ms&lt;/em&gt; from the &lt;a href=&#34;https://uchicago.app.box.com/s/l3e5uf13tikfjm7e1il1eujitlsjdx13&#34; target=&#34;_blank&#34;&gt;ms website&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Navigate to the folder where you extracted &lt;em&gt;ms&lt;/em&gt;, and run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gcc -o ms ms.c streec.c rand1.c -lm
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add the folder containing ms.exe (the &lt;em&gt;ms&lt;/em&gt; folder) to your &lt;a href=&#34;http://www.zdnet.com/article/windows-10-tip-point-and-click-to-edit-the-system-path-variable/&#34; target=&#34;_blank&#34;&gt;system path&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;install-the-latest-version-of-a-i&#34;&gt;Install the latest version of ∂a∂i&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Go here: &lt;a href=&#34;https://bitbucket.org/gutenkunstlab/dadi/downloads/&#34; target=&#34;_blank&#34;&gt;https://bitbucket.org/gutenkunstlab/dadi/downloads/&lt;/a&gt; and choose &amp;ldquo;download repository&amp;rdquo; (not the .exe).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Extract the contents to a folder (anywhere).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Navigate to the extraction folder in a command prompt. Then type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python setup.py install
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Scan the output of this command for errors. Depending on the state of your system, you may need to install Visual Studio 9.0 C++ (follow the URL given in error message).&lt;/p&gt;
+
+&lt;h2 id=&#34;run-the-a-i-example-analysis&#34;&gt;Run the ∂a∂i example analysis&lt;/h2&gt;
+
+&lt;p&gt;To confirm your installation works, run the example analysis provided in the repository you downloaded.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Copy the &amp;ldquo;example/YRI_CEU&amp;rdquo; folder from the extracted repository to a new folder (anywhere).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open the Jupyter application.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In the file browser tab Jupyter opens, navigate to the newly created YRI_CEU folder and Create a new Python 2 notebook. This will open a new tab with a Python 2 notebook.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open the &amp;lsquo;YRI_CEU.py&amp;rsquo; script from the Jupyter file browser. This will open the script in a separate browser tab.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Copy,  paste and run (logically-selected) chunks of code from the .py to your new Python 2 notebook.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Check for error messages + troubleshoot if necessary.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;finished&#34;&gt;Finished!&lt;/h2&gt;
+
+&lt;p&gt;If the gods have smiled on you, you should now how a functioning installation of ∂a∂i. Before diving into an analysis, I highly recommend the following references by Ryan Gutenkunst et al.:&lt;/p&gt;
+
+&lt;h2 id=&#34;reading-list&#34;&gt;Reading list&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000695&#34; target=&#34;_blank&#34;&gt;The original paper describing ∂a∂i.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/gutenkunstlab/dadi/downloads/&#34; target=&#34;_blank&#34;&gt;The ∂a∂i manual.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msv255&#34; target=&#34;_blank&#34;&gt;A paper describing the use of the Godambe Information Matrix for model comparison in ∂a∂i.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.genetics.org/content/early/2017/04/13/genetics.117.201251&#34; target=&#34;_blank&#34;&gt;A recent paper about integrating two-locus statistics into ∂a∂i.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
