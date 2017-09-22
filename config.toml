@@ -169,18 +169,23 @@ defaultContentLanguageInSubdir = false
   
 [[menu.main]]
   name = "CV"
-  url = "https://ksamuk.github.io/pdf/cv_2016.pdf"
+  url = "https://ksamuk.github.io/pdf/cv_2017.pdf"
   weight = 4
+  
+[[menu.main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 5
   
 [[menu.main]]
   name = "Blog"
   url = "#posts"
-  weight = 5
+  weight = 6
   
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 7
 
 # Taxonomies.
 [taxonomies]

@@ -5,11 +5,11 @@ date = "2017-07-01"
 image_preview = "cod_inversion.png"
 math = true
 publication_types = ["2"]
-publication = "Molecular Ecology (accepted)"
+publication = "Molecular Ecology "
 publication_short = ""
 selected = false
 title = "Gene flow and selection interact to promote adaptive divergence in regions of low recombination"
-url_pdf = ""
+url_pdf = "http://onlinelibrary.wiley.com/doi/10.1111/mec.14226/full"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

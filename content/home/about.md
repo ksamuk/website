@@ -13,6 +13,7 @@ weight = 1
 [interests]
   interests = [
     "Evolutionary genomics",
+    "Behaviour",
     "Recombination",
     "Adaptation",
     "Speciation"
@@ -41,4 +42,4 @@ weight = 1
 
 # Biography
 
-I am a Postdoctoral Associate in the lab of Mohamed Noor at Duke University. I am broadly interested in evolutionary genomics, and work on questions related to adaptation, speciation and the evolutionary consequences of recombination. I study these processes in a variety of systems, including threespine sticklebacks and *Drosophila pseudoobscura*. I use a wide range of approaches in my research, including population genomics, experimental evolution and meta-analysis. 
+I am a Postdoctoral Associate in the lab of Mohamed Noor at Duke University. I am broadly interested in evolutionary genomics, and study adaptation, speciation and the evolution of behaviour. I have studied these processes in a variety of systems, including threespine sticklebacks, social spiders and *Drosophila pseudoobscura*. I enjoy approaching problems from a  multiple angles and use a range of techniques in my research, including population genomics, experimental evolution and meta-analysis. 

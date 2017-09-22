@@ -9,7 +9,7 @@ publication = "Behavioral Ecology"
 publication_short = ""
 selected = false
 title = "Sister clade comparisons reveal reduced maternal care behavior in social cobweb spiders"
-url_pdf = "https://academic.oup.com/beheco/article/23/1/35/232861/Sister-clade-comparisons-reveal-reduced-maternal"
+url_pdf = "pdf/Samuk et al.2011-BehavEcol.pdf"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
