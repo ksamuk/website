@@ -1,6 +1,6 @@
 +++
 date = "2017-11-02T00:00:00"
-title = "UPCOMING: The genomics of adaptation and speciation in the threespine stickleback"
+title = "The evolution and consequences of recombination rate variation"
 abstract = ""
 abstract_short = ""
 event = "UNC BioPop Seminar"
