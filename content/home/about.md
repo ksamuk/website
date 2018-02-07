@@ -13,7 +13,7 @@ weight = 1
 [interests]
   interests = [
     "Evolutionary genomics",
-    "Behaviour",
+    "Gene flow",
     "Recombination",
     "Adaptation",
     "Speciation"
@@ -42,4 +42,12 @@ weight = 1
 
 # About
 
-I am a Postdoctoral Associate in Mohamed Noor's lab at Duke University. I am broadly interested in evolutionary genomics, and study adaptation, speciation and the evolution of behaviour. I have studied these processes in a variety of systems, including threespine sticklebacks, social spiders and *Drosophila pseudoobscura*. I enjoy approaching problems from a  multiple angles and use a range of techniques in my research, including population genomics, experimental evolution, computer simulations and meta-analysis. 
+I am an evolutionary geneticist, and my work is focused on the interaction of natural selection, recombination and gene flow. 
+I am particularly interested in how the tension between these processes shapes the trajectory of adaptive evolution and speciation.
+I enjoy approaching scientific problems from multiple angles and use a range of techniques in my research, 
+including population genomics, experimental evolution, computer simulations and meta-analysis. 
+
+I also have a long-standing interest
+in the evolution of the brain and behavior, and I am exploring approaches for applying modern genomic methods to classic behavioral questions.
+
+I am currently a Postdoctoral Associate in Mohamed Noor's lab at Duke University. 
