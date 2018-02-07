@@ -16,7 +16,8 @@ weight = 1
     "Gene flow",
     "Recombination",
     "Adaptation",
-    "Speciation"
+    "Speciation",
+    "Brain and behavioral evolution"
   ]
 
 # List your qualifications (such as academic degrees).
