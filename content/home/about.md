@@ -43,7 +43,7 @@ weight = 1
 
 # About
 
-I am an evolutionary geneticist and my work is focused on the interaction of natural selection, recombination, and gene flow. 
+I am an evolutionary geneticist and my work is focused on the interactions between natural selection, recombination, and gene flow. 
 I am particularly interested in how the tension between these processes shapes the trajectory of adaptive evolution and speciation.
 I enjoy approaching scientific problems from multiple angles and use a range of techniques in my research, including population genomics, experimental evolution, computer simulations, and meta-analysis. 
 
