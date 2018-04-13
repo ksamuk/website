@@ -9,7 +9,7 @@ publication = "Evolution, In Press"
 publication_short = ""
 selected = false
 title = "Exposure to predators does not lead to the evolution of larger brains in experimental populations of threespine stickleback."
-url_pdf = "https://ksamuk.github.io/pdf/"
+url_pdf = "https://ksamuk.github.io/pdf/samuk_et_al_2018_evolution.pdf"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
