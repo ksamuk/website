@@ -43,9 +43,8 @@ weight = 1
 
 # About
 
-I am an evolutionary geneticist and my work is focused on the interactions between natural selection, recombination, and gene flow. 
-I am particularly interested in how the tension between these processes shapes the trajectory of adaptive evolution and speciation.
-I enjoy approaching scientific problems from multiple angles and use a range of techniques in my research, including population genomics, experimental evolution, computer simulations, and meta-analysis. 
+I am an evolutionary geneticist and I study how recombination and gene flow shape the trajectory of adaptation and speciation.
+I use a range of techniques in my research, including population genomics, experimental evolution, computer simulations, and meta-analysis. 
 
 I also have a long-standing interest in the evolution of the brain and behavior. I am interested in exploring approaches for applying modern genomic methods to classic behavioral questions.
 
