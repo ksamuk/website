@@ -13,11 +13,10 @@ weight = 1
 [interests]
   interests = [
     "Evolutionary genomics",
-    "Gene flow",
     "Recombination",
+    "Gene flow",
     "Adaptation",
-    "Speciation",
-    "Brain and behavioral evolution"
+    "Speciation"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -43,9 +42,10 @@ weight = 1
 
 # About
 
-I am an evolutionary geneticist and I study how recombination and gene flow shape the trajectory of adaptation and speciation.
-I use a range of techniques in my research, including population genomics, experimental evolution, computer simulations, and meta-analysis. 
+I am an evolutionary geneticist and I study how recombination shapes evolutionary processes (and, increasingly, vice versa!).
 
-I also have a long-standing interest in the evolution of the brain and behavior. I am interested in exploring approaches for applying modern genomic methods to classic behavioral questions.
+I am particularly interested in the interplay between *gene flow, natural selection, and recombination*. These forces often have complex dynamics that unfold during adaptation to a new environment or speciation.
 
-I am currently a Postdoctoral Associate in Mohamed Noor's lab at Duke University. 
+I use a range of techniques in my research, including population genomics, experimental evolution, and computer simulations.
+
+I am currently a Postdoctoral Associate in Mohamed Noor's lab at Duke University.

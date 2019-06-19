@@ -153,9 +153,14 @@ defaultContentLanguageInSubdir = false
   weight = 1
   
 [[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 2
+  
+[[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "Publications"
@@ -163,14 +168,14 @@ defaultContentLanguageInSubdir = false
   weight = 2
   
 [[menu.main]]
-  name = "Publications"
-  url = "#publications"
+  name = "CV"
+  url = "https://ksamuk.github.io/pdf/cv_2019.pdf"
   weight = 3
   
 [[menu.main]]
-  name = "CV"
-  url = "https://ksamuk.github.io/pdf/cv_2018.pdf"
-  weight = 4
+  name = "Publications"
+  url = "#publications"
+  weight = 3
   
 [[menu.main]]
   name = "Talks"
@@ -183,9 +188,12 @@ defaultContentLanguageInSubdir = false
   weight = 6
   
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 7
+  name = "Software"
+  url = "#posts"
+  weight = 6
+  
+  
+
 
 # Taxonomies.
 [taxonomies]
